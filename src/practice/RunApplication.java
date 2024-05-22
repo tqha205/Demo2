@@ -100,6 +100,7 @@ public class RunApplication {
         Student student2 = new Student(3, "Ha3", "ta3#gmail.com", new Date());
         listStudent.add(student1);
         listStudent.add(student3);
+        /*su dung constructor de tao 1 object*/
         listStudent.add(new Student(student1.getId(), student1.getName(), student1.getEmail(), student1.getBirthDay()));
 
         listStudent.add(student2);
